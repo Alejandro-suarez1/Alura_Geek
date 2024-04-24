@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraGeek</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Press Start 2P:wght@400&display=swap"
+/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="/assets/th.jpeg ">
+</head>
+<body>
+
+  <header>
+    <img class="corazones" src="assets/corazones.svg" alt="">
+    <h2>Alura<span>Geek</span></h2>
+  </header>
+
+  <div class="container">
+    <form id="product-form">
+      <p class="adPro">Agregar Producto:</p>
+      <div class="entradas">
+        <input class="entrada" placeholder="Nombre..." type="text" id="name" required>
+        <input class="entrada" placeholder="Precio..." type="number" id="price" min="0.01" step="0.01" required>  
+        <input class="entrada" placeholder="Imagen..." type="url" id="image" required>
+      </div>
+      <div class="botones">
+        <button type="submit" id="submit-btn">Enviar</button>
+        <button type="button" id="clear-btn">Limpiar</button>
+    </div>
+    </form>
+    <p>Mis productos:</p>
+    <div id="product-list">
+      <div class="product">
+        <img src="assets/n64.jpg" alt="${name}">
+        <div>
+          <h3>Nintendo 64</h3>
+          <p>$ 84.900</p>
+        </div>
+        <button class="delete-btn">Borrar<i class="fas fa-trash-alt delete-icon"></i></button>
+      </div>
+      <div class="product">
+        <img src="assets/myboy.jpg" alt="${name}">
+        <div>
+          <h3>Game Boy Advance</h3>
+          <p>$ 124.000</p>
+        </div>
+        <button class="delete-btn">Borrar<i class="fas fa-trash-alt delete-icon"></i></button>
+      </div>
+      <div class="product">
+        <img src="assets/pspp.jpg" alt="${name}">
+        <div>
+          <h3>PSP Sony</h3>
+          <p>$ 374.800</p>
+        </div>
+        <button class="delete-btn">Borrar<i class="fas fa-trash-alt delete-icon"></i></button>
+      </div>
+      <div class="product">
+        <img src="assets/gameboy" alt="${name}">
+        <div>
+          <h3>Game Boy</h3>
+          <p>$ 65.500</p>
+        </div>
+        <button class="delete-btn">Borrar<i class="fas fa-trash-alt delete-icon"></i></button>
+      </div>
+      <div class="product">
+        <img src="assets/3ds" alt="${name}">
+        <div>
+          <h3>Nintendo 3DS</h3>
+          <p>$ 479.900</p>
+        </div>
+        <button class="delete-btn">Borrar<i class="fas fa-trash-alt delete-icon"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="logo1">
+      <img class="corazones" alt="" src="assets/corazones.svg" />
+      <div class="alurageek-container">
+        <h2>Alura<span>Geek</span></h2>
+      </div>
+    </div>
+    <div class="desarollado-por-tu-nombre-wrapper">
+      <div class="desarollado-por-tu-container">
+        <p class="desarollado-por-tu">Desarollado por Alejandro Suárez</p>
+        <p class="alura-latam-202x">Alura Latam - 2023</p>
+      </div>
+    </div>
+   </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+body {
+  font-family:  "Press Start 2P";
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  line-height: normal;
+}
+
+header {
+  background-color: #5d04d9;
+  box-shadow: 0 17px 4.9px rgba(0, 0, 0, 0.35);
+  flex-direction: row;
+  align-self: stretch;
+  box-sizing: border-box;
+  color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.corazones {
+  width: 100px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+input::placeholder {
+  font-family:  "Press Start 2P";
+  color: #ffffff;
+}
+input, button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 10px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #5d04d9;
+  border-radius: 50px; 
+  outline: none; 
+}
+
+/* .entrada {
+  width: 500px;
+} */
+
+.entradas {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+width: 200px;
+background-color: #5d04d9;
+transition: ease-out 0.5s;
+font-family: cursive;
+font-size: 12px;
+}
+
+#submit-btn:hover {
+box-shadow: inset 0 -100px 0 0 #333;
+}
+
+#clear-btn {
+width: 200px;
+transition: ease-out 0.5s;
+font-family: cursive;
+font-size: 12px;
+}
+
+#clear-btn:hover {
+  box-shadow: inset 0 -100px 0 0  #5d04d9;
+}
+
+.botones {
+  display: flex; 
+  gap: 10px; 
+  justify-content: center;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+input:focus, button:focus {
+  outline: none;
+}
+
+#product-list {
+  margin-top: 20px;
+}
+
+#product-list {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #5d04d9;  
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+.product img {
+  max-width: 200px;
+  max-height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+}
+
+.product h3, .product p {
+  margin: 5px;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* .adPro {
+  padding-left: 50px;
+} */
+
+span {
+  color: #E95D44;
+}
+
+.delete-btn {
+  background-color:  #E95D44;
+  color: #fff;
+  border: none;
+  padding: 5px 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;  
+}
+
+.delete-btn:hover {
+  background-color:#ff0000;
+}
+
+.delete-icon {
+  margin-right: 5px;
+}
+
+/*footer*/
+.desarollado-por-tu-nombre-wrapper,
+.footer,
+.home {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.alurageek-container,
+.logo1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.alurageek-container,
+.logo1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.desarollado-por-tu-container {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.desarollado-por-tu {
+  margin: 0;
+}
+
+.alura-latam-202x {
+  margin: 0;
+  font-weight: 200;
+}
+
+.desarollado-por-tu-nombre-wrapper {
+  width: 374px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 52px 0 52.5px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 10px;
+  font-family: "IBM Plex Mono";
+}
+
+.footer,
+.home {
+  flex-direction: column;
+}
+.footer {
+  align-self: stretch;
+  box-shadow: 0 -20px 9.5px rgba(10, 0, 0, .35);
+  background-color:#5d04d9;
+  align-items: center;
+  padding: 5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 10px;
+  color: white;
+  margin-top: 40px;
+}
